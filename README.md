@@ -25,6 +25,8 @@ dependencies {
 }
 ```
 
+[![Release](https://jitpack.io/v/l0neman/RippleTransformLayout.svg)](https://jitpack.io/#l0neman/RippleTransformLayout)
+
 ## 使用
 
 1. 对于想要换主题或改变布局的区域，使用 RippleTransformLayout 作为顶层布局，它是一个 FrameLayout。
