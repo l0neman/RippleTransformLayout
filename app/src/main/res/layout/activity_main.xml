@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.l0neman.widget.RippleTransformLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rtl_demo"
+    android:layout_width="match_parent"
+    android:background="#FFFF"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb_demo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:textSize="32sp"
+            android:focusable="true"
+            android:onClick="transform"
+            android:text="Transform" />
+    </RelativeLayout>
+
+</io.l0neman.widget.RippleTransformLayout>

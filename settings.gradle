@@ -1,0 +1,3 @@
+rootProject.name='RippleTransformLayout'
+include ':app'
+include ':lib'
