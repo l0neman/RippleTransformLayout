@@ -1,5 +1,7 @@
 # RippleTransformLayout
 
+[![Release](https://jitpack.io/v/l0neman/RippleTransformLayout.svg)](https://jitpack.io/#l0neman/RippleTransformLayout)
+
 ## 介绍
 
 可通过水波纹动画表现布局变换过程的 ViewGroup，可用于实现流畅的主题切换效果。
@@ -24,8 +26,6 @@ dependencies {
     implementation 'com.github.l0neman:RippleTransformLayout:v1.0'
 }
 ```
-
-[![Release](https://jitpack.io/v/l0neman/RippleTransformLayout.svg)](https://jitpack.io/#l0neman/RippleTransformLayout)
 
 ## 使用
 
