@@ -33,22 +33,6 @@ import androidx.annotation.RequiresApi;
  * 4. 换主题操作过后，在添加的 View 上执行水波纹动画，原理是首先绘制一个圆形，给定一个圆心，一个半径变量，
  * 半径由 0 变化至圆心与最远的角的距离，绘制圆形时，给 Paint 指定一个 Xfermode，使圆形与快照图片交叉的部
  * 分为透明，即可看到下面被遮挡的 View，那么整个动画过程就能展示出新界面把旧的界面使用水波纹替换的效果了。
- * <p>
- * 2. 初始化 View：<code>RippleTransformLayout rtl = findViewById(R.id.rtl_test);</code>
- * <p>
- * 3. 设置动画时长，动画开始延迟时间，设置波纹圆心。
- *
- * <pre><code>
- *   rtl.setDuration(1000);  // 持续 1s。
- *   rtl.setStartDelay(200); // 延迟 300ms 后开始。
- *   rtl.setRippleCenter(0.3F, 0.3F); // 处于 rtl 布局左上角。
- * </code></pre>
- * <p>
- * 4. 开始进行变换。
- *
- * <pre><code>
- *   rtl.transform();
- * </code></pre>
  */
 public class RippleTransformLayout extends FrameLayout {
 
